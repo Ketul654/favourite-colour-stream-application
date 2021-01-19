@@ -15,7 +15,7 @@ This is developed using java 8 and kafka stream 2.7.0
 
 2. Create input and output compacted topics
    ```
-   bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic favourite-colour-input --config cleanup.policy=compact
+   bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic favourite-colour-input
    bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic favourite-colour-output --config cleanup.policy=compact
    ```
 3. Start this application
